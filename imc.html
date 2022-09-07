@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+  </head>
+
+  <body>
+    <div id="main">
+
+      <div id="imc">
+        <div id="info">
+          <H3>O que representa o cálculo de IMC?</H3>
+          <p>O cálculo de IMC (Índice de massa corpórea), calcula a média se uma pessoa está no seu peso ideal. <br>
+            A conta é
+            feito
+            pelo peso dividido pela altura elevada ao qaudrado. </p>
+        </div>
+        <header>
+          <h1>Calculadora - IMC</h1>
+        </header>
+        <div id="dados">
+          <p>Nome: <input type="text" name="" id="nome"></p>
+          <p> Altura: <input type="number" id="height"></p>
+          <p> Peso: <input type="number" name="" id="peso"></p>
+          <input type="button" value="Calcular" id="btn" onclick="calcular()">
+        </div>
+        <div id="res"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
